@@ -10,9 +10,9 @@ import './styles/_main.scss';
 ReactDOM.render(
   <ThemeProvider>
     <Provider store={store}>
-        <Router>
-          <App />
-        </Router>
+      <Router>
+        <App />
+      </Router>
     </Provider>
   </ThemeProvider>,
   document.getElementById('root')
